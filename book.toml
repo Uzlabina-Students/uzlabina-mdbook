@@ -1,6 +1,6 @@
 [book]
-authors = ["Czechball"]
-language = "en"
+authors = ["David Jenne", "Jovan Láník", "Vojtěch Hořánek", "Michael Brabec", "Sergej Kuroedov"]
+language = "cs"
 multilingual = false
 src = "src"
-title = "Uzlabina"
+title = "Uzlabina-Zapisky"
