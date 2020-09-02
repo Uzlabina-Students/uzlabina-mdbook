@@ -1,6 +1,5 @@
 # Organizace a důležité údaje na začátku školního roku
 
-- Věci si omlouváme sami atd
 - Používání cizí skříňky se trestá smrtí
 - Na první matematiku si vemte sešit, papír A4 a čtverečkovaný papír
 - Corona existuje
