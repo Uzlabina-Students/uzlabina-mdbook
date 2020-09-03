@@ -6,7 +6,8 @@
 	- [Začátek školního roku](Main/Organizace/zacatek.md)
 
 - [Zápisky]()
-	- [Anglický Jazyk]()
+	- [Anglický Jazyk (AJ1)]()
+	- [Anglický Jazyk (AJ2)]()
 	- [Aplikační Software]()
 	- [Český Jazyk a Literatura](Zapisky/CJ-AD.md)
 	- [Hardware a sítě]()
