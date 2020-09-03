@@ -5,7 +5,7 @@
 Uživatel: `Lab130`
 Heslo: `Laborator130`
 
-IP adresa virtuálů: `10.1.1.184`
+IP adresa virtuálů: `10.1.1.184` (Pravděpodobně dočasná)
 
 ##Kopírování účtů
 
