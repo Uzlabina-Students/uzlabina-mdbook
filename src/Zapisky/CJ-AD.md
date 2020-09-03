@@ -1,4 +1,4 @@
-# Český Jazyk (Adámková)
+# Český Jazyk (AD)
 
 ## 1. Hodina 2020-09-03
 

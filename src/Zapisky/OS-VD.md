@@ -1,4 +1,4 @@
-# Operační Systémy (Vedral)
+# Operační Systémy (VD)
 
 ## Přihlášení k místním účtům
 

@@ -1,4 +1,4 @@
-# Anglický Jazyk (Rezková)
+# Anglický Jazyk (RZ)
 
 ## 1. Hodina 2020-09-03
 
