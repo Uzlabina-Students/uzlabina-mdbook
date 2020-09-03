@@ -13,7 +13,7 @@
 	- [Hardware a sítě - cvičení]()
 	- [Matematika]()
 	- [Odborná Angličtina]()
-	- [Operační Systémy (Vedral)](Zapisky/Hlavni/OS-VD.md)
+	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
 	- [Software (Čepička)]()
 	- [Software (Durdilová)]()
 	- [Tvorba Webových Aplikací]()
