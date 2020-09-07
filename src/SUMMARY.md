@@ -8,6 +8,7 @@
 - [Zápisky]()
 	- [Anglický Jazyk (AJ1)](Zapisky/AJ-RZ.md)
 	- [Anglický Jazyk (AJ2)]()
+	- [Aplikační Software (Ads)](Zapisky/AS-HS.md)
 	- [Aplikační Software]()
 	- [Český Jazyk - Seminář](Zapisky/CJ-AD.md)
 	- [Český Jazyk - Literatura](Zapisky/CJ-VN.md)
