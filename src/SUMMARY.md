@@ -14,7 +14,7 @@
 	- [Český Jazyk - Literatura](Zapisky/CJ-VN.md)
 	- [Hardware a sítě](Zapisky/HS.md)
 	- [Hardware a sítě - cvičení]()
-	- [Matematika]()
+	- [Matematika](Zapisky/M.md)
 	- [Odborná Angličtina]()
 	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
 	- [Software](Zapisky/SW.md)
