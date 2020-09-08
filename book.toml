@@ -4,3 +4,5 @@ language = "cs"
 multilingual = false
 src = "src"
 title = "Uzlabina-Zapisky"
+[output.html]
+mathjax-support = true
