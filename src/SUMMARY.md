@@ -20,4 +20,4 @@
 	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
 	- [Software](Zapisky/SW.md)
 	- [Tvorba Webových Aplikací](Zapisky/TWA.md)
-	- [Základy Společenských Věd]()
+	- [Základy Společenských Věd](Zapisky/ZSV.md)
