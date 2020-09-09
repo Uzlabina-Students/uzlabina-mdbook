@@ -42,3 +42,7 @@ ___
 - Beat generation - zbitá generace
 - Američtí básníci 50. a 60. let
 - Bohémský způsob života, cílená provokace
+
+## 2. Hodina 2020-09-09
+
+- MS Teams jsou již zprovozněny, materiály jsou dostupné v souborech v týmu I4D_ČJL_Vn_2021

@@ -15,7 +15,7 @@
 	- [Hardware a sítě](Zapisky/HS.md)
 	- [Hardware a sítě - cvičení (At)](Zapisky/HSC-MU.md)
 	- [Hardware a sítě - cvičení ()]()
-	- [Matematika](Zapisky/M.md)
+	- [Matematika]()
 	- [Odborná Angličtina]()
 	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
 	- [Software](Zapisky/SW.md)
