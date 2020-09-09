@@ -6,3 +6,7 @@
 	- Domácí (ekonomická, politická)
 	- Zahraniční
 	- Oblast našich zájmů (zajímavost)
+
+- Volební právo
+	- Krajské volby
+	- Pasivní volební právo (tj. můžu být zvolen)
