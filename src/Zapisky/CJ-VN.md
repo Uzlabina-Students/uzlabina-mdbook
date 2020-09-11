@@ -46,3 +46,5 @@ ___
 ## 2. Hodina 2020-09-09
 
 - MS Teams jsou již zprovozněny, materiály jsou dostupné v souborech v týmu I4D_ČJL_Vn_2021
+
+## 3. Hodina 2020-09-11
