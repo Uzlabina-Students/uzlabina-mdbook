@@ -17,8 +17,3 @@ ___
 - Technologie a protokoly pro širokopásmové připojení
 - VPN
 - Protokol eBGP
-
-## 2. Hodina 2020-09-08
-
-- CCNA3 Pretest Exam
-- CCNA3 Chapter 1 Quiz
