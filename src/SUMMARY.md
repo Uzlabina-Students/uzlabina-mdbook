@@ -17,6 +17,7 @@
 	- [Hardware a sítě - cvičení ()]()
 	- [Matematika]()
 	- [Odborná Angličtina]()
+	- [Odborná Angličtina (O2)](Zapisky/OA-MO.md)
 	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
 	- [Software](Zapisky/SW.md)
 	- [Tvorba Webových Aplikací](Zapisky/TWA.md)
