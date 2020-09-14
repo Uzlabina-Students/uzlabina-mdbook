@@ -48,3 +48,18 @@ ___
 - MS Teams jsou již zprovozněny, materiály jsou dostupné v souborech v týmu I4D_ČJL_Vn_2021
 
 ## 3. Hodina 2020-09-11
+-  
+## 4. Hodina 2020-09-14
+
+### Úvaha
+
+- Důležité právo na vlastní názor
+- Přijímání názoru opozice
+
+#### Struktura úvahy
+- Úvod
+- Problém, klady + zápory
+	- Argumenty, zkušenosti
+	- Názor
+- Závěr - s čím souhlasíme a s čím ne
+	- Jasnými slovy uvést, že se jedná o náš názor
