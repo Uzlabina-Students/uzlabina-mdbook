@@ -1,0 +1,23 @@
+# SPŠE V Úžlabině I4.D 2020/2021
+
+- [Index](README.md)
+
+- [Třídní záležitosti](Main/Organizace/README.md)
+	- [Začátek školního roku](Main/Organizace/zacatek.md)
+
+- [Zápisky]()
+	- [Anglický Jazyk (AJ1)](Zapisky/AJ-RZ.md)
+	- [Anglický Jazyk (AJ2)]()
+	- [Aplikační Software (Ads)](Zapisky/AS-HS.md)
+	- [Aplikační Software]()
+	- [Český Jazyk - Seminář](Zapisky/CJ-AD.md)
+	- [Český Jazyk - Literatura](Zapisky/CJ-VN.md)
+	- [Hardware a sítě](Zapisky/HS.md)
+	- [Hardware a sítě - cvičení (At)](Zapisky/HSC-MU.md)
+	- [Hardware a sítě - cvičení ()]()
+	- [Matematika]()
+	- [Odborná Angličtina]()
+	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
+	- [Software](Zapisky/SW.md)
+	- [Tvorba Webových Aplikací](Zapisky/TWA.md)
+	- [Základy Společenských Věd](Zapisky/ZSV.md)
