@@ -9,7 +9,7 @@
 	- [Anglický Jazyk (AJ1)](Zapisky/AJ-RZ.md)
 	- [Anglický Jazyk (AJ2)]()
 	- [Aplikační Software (HS)](Zapisky/AS-HS.md)
-	- [Aplikační Software](KO)(Zapisky/AS-KO.md)
+	- [Aplikační Software (KO)](Zapisky/AS-KO.md)
 	- [Český Jazyk - Seminář](Zapisky/CJ-AD.md)
 	- [Český Jazyk - Literatura](Zapisky/CJ-VN.md)
 	- [Hardware a sítě](Zapisky/HS.md)
