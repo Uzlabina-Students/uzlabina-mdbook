@@ -19,6 +19,7 @@
 	- [Odborná Angličtina]()
 	- [Odborná Angličtina (O2)](Zapisky/OA-MO.md)
 	- [Operační Systémy (Vedral)](Zapisky/OS-VD.md)
-	- [Software](Zapisky/SW.md)
+	- [Software (DU)](Zapisky/SW-DU.md)
+	- [Software (CE)](Zapisky/SW-CE.md)
 	- [Tvorba Webových Aplikací](Zapisky/TWA.md)
 	- [Základy Společenských Věd](Zapisky/ZSV.md)
