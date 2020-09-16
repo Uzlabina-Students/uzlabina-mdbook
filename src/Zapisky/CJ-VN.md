@@ -6,7 +6,14 @@
 
 *Seznam bude zveřejněn na školním Office 365 až bude systém funkční*
 
-Seznam četby je také dostupný [jako PDF zde](https://www.uzlabina.cz/uploads/file/seznam_cetby_1920.pdf).
+Seznam četby je také dostupný [jako PDF zde](https://www.uzlabina.cz/uploads/file/seznam_cetby_1920.pdf)[(IA Backup)](https://web.archive.org/web/20200912100932/https://www.uzlabina.cz/uploads/file/seznam_cetby_1920.pdf).
+
+- Povinně volitelný výběr:
+	- Z kategorie "Literatura do 18. století" **2 knihy**
+	- Z kategorie "Literatura do 19. století" **3 knihy**
+	- Z kategorie "Světová literatura 20. století" **4 knihy**
+	- Z kategorie "Česká literatura 20. století" **5 knih**
+	- Dalších 6 libovolně ze seznamu
 
 ## 2. Hodina 2020-09-07
 
@@ -63,3 +70,9 @@ ___
 	- Názor
 - Závěr - s čím souhlasíme a s čím ne
 	- Jasnými slovy uvést, že se jedná o náš názor
+
+## 5. Hodina 2020-09-15
+
+### Interview s Bohem
+
+- Vytvořit desatero, co bychom chtěli naučit své děti

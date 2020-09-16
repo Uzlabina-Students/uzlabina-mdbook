@@ -10,3 +10,9 @@
 - Volební právo
 	- Krajské volby
 	- Pasivní volební právo (tj. můžu být zvolen)
+
+## 2. Hodina 2020-09-16
+
+### Mimořádné události
+
+- IZS

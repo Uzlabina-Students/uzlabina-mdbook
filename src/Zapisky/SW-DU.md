@@ -26,3 +26,14 @@
 - Soubor může být uložen
 	- Jen s jedním kódováním
 	- S více kodováními (špatně)
+
+## 3. Hodina 2020-09-16
+
+### Opakování datových typů
+
+- Celá čísla
+- Reálná čísla
+- Znaky
+- Bool
+- Double
+- Float
