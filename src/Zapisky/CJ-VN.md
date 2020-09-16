@@ -14,6 +14,7 @@ Seznam četby je také dostupný [jako PDF zde](https://www.uzlabina.cz/uploads/
 	- Z kategorie "Světová literatura 20. století" **4 knihy**
 	- Z kategorie "Česká literatura 20. století" **5 knih**
 	- Dalších 6 libovolně ze seznamu
+- Dohromady 20 knih
 
 ## 2. Hodina 2020-09-07
 
