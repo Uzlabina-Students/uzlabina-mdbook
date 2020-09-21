@@ -79,3 +79,26 @@
 |   0 | 8 |
 |   1 | 6 |
 |   1 | 2 |
+
+## 4. Hodina 2020-09-21
+
+### [Komprimování textových souborů](http://uzlabina2.aspone.cz/kompresetextu.aspx)
+
+- Vždy musí být bezztrátová
+- Komprimovat lze jen soubory, kdy se data vyskytují s různou četností
+
+#### Příklad 1
+Biologové popisují geny jako posloupnosti složené ze 4 písmen
+- A, T, G, C
+- Kódujeme zprávu `A A A C A G T A A C`
+	- 1. Vytvoříme kód - 2 binární číslice pro každý znak  
+
+	| A | C | G | T | A A A C A G T A A C| AAACAGTAAC |
+	|---|---|---|---|--------------------|------------|
+	|00 |01 |10 | 11|00 00 00 01 00 11 10 00 00 01 |00000001001110000001|
+
+	- 2. Využijeme skutečnosti, že se jednotlivé znaky vyskytují v posloupnosti s různou četností (znak A se vyskytuje 6x, znak C 2x, znaky G a T 1x). Vytvoříme nový kód  
+
+	| A | C | G | T | A A A C A G T A A C| AAACAGTAAC|
+	|---|---|---|---|--------------------|-----------|
+	|0  |10 |110|111|0 0 0 10 0 110 111 0 0 10|0001001101110010|
