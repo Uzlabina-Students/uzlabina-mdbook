@@ -1,4 +1,4 @@
-# Hardware a sítě - Cvičení
+# Hardware a sítě - Cvičení (MU)
 
 ## 1. Hodina 2020-09-09
 
