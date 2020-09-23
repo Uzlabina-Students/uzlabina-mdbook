@@ -7,16 +7,16 @@
 #### [Modul 1](https://docs.microsoft.com/cs-cz/learn/modules/what-is-m365/1-introduction): Základní charakteristika služby Microsoft 365
 
 - Nástroje pro produktivitu, týmovou práci
-	- Teams
-	- Outlook
-	- OneDrive for Business
-	- Yammer (firemní sociální síť)
+	- **Teams**
+	- **Outlook**
+	- **OneDrive for Business**
+	- **Yammer** (firemní sociální síť)
 - Nástroje pro správu firmy
-	- Endpoint Manager (IT management)
-	- Teams a PowerPlatform (automatizace, telefonní systém)
-	- Workplace Analytics (analytika)
+	- **Endpoint Manager** (IT management)
+	- **Teams** a **Power Platform** (automatizace, telefonní systém)
+	- **Workplace Analytics** (analytika)
 - Nástroje pro zabezpečení, zajištění souladu
-	- Správa přístupu a identit, ochrana a řízení dat, ochrana proti hrozbám, správa zabezpečení a rizik, [eDiscovery](https://docs.microsoft.com/en-us/microsoft-365/compliance/ediscovery)
+	- Správa přístupu a identit, ochrana a řízení dat, ochrana proti hrozbám, správa zabezpečení a rizik, [**eDiscovery**](https://docs.microsoft.com/en-us/microsoft-365/compliance/ediscovery)
 - Část Office 365 je SaaS
 - Platba prostřednictvím předplatky
 
@@ -33,3 +33,66 @@
 		- Pro domácnosti a jednotlivé uživatele
 		- Dva plány: Family a Personal
 - Test: [Knowledge Check](https://docs.microsoft.com/cs-cz/learn/modules/what-is-m365/4-knowledge-check)
+
+## 2. Hodina 2020-09-22
+
+### [Microsoft 365 productivity and teamwork solutions](https://docs.microsoft.com/en-us/learn/modules/microsoft-365-productivity-teamwork-solutions/)
+
+#### Možnosti zlepšení produktivity práce uživatele
+
+- Integrace podpory práce odkudkoliv, pomocí nástrojů využívajících umělé inteligence
+	- Lepší produktivita díky platformě **Power Platform** (automatizace procesů, analýza dat, vytváření virtuálních agentů)
+	- Zvýšení angažovanosti zaměstnanců; přehrávání videa, interaktivní diskuze kde se řeší vize firmy, poskytnutí fóra pro otevřenou diskuzi
+	- IM komunikace, chat (**Teams**)
+	- Online meeting, vzdálená práce
+	- Kontakt pomocí kalendáře a e-mailu: **Outlook**
+
+#### Zvýšení angažovanosti zaměstnanců
+
+- Cíl je zájem zaměstnanců o firmu
+- Motivace pro práci
+	- Inspirace pro nejlepší výkon zaměstnance
+	- Vytvoření kreativního prostředí
+	- Propojit zaměstnance
+
+**Chat v Microsoft Teams**
+- Ideální nástroje pro zvýšení efektivity práce - okamžitý komunikace
+- Teams je centrální prvek pro spolupráci ve firmě
+
+**Online setkáná v Teams**
+
+- Funkci v každé fázi setkání
+	- Před setkáním; sdílení agendy, zvaní účastníků, poznámky a záznamy
+	- Přenos videa, sdílení obsahu
+	- Po setkání: sdílení záznamů a poznámek
+- Naživo účast až 10 000 účastníků
+- Audiokonference: účast z mobilních telefonů
+
+#### Elektronická pošta, kalendář a úkoly
+
+- Vše na jednom místě
+- **Microsoft 365** provádí synchronizaci mailů, kalendářů, kontaktů atf
+- Možnost vlastního formátu e-mailu, vlastní domény
+- Zjednodušená správa účtů, vytváření skriptů, antispam, archiv, propojení s LinkedIn
+
+**Office na každém zařízení**
+
+- Práce odkudkoliv kdykoliv
+- Instalace kancelářských programů až na pět PC / Mac / Android zařízení
+- Automatické aktualizaces
+
+#### Úložiště souborů a jeijch sdílení v Microsoft 365
+
+- Úložiště souborů a nástroje pro sdílení poskytují bezpečný přístup, ukládání, aktualizace a coauthoring (real-time spolupráce)
+- Přístup a ukládání souborů pomocí **OneDrive**
+- Bezpečné sdílení v rámci firmy i mimo: automatické ukládání na **OneDrive** a **SharePoints**
+
+#### Popis možností přístupnosti v Microsoft 365 (Accessibility)
+
+- Podpora přístupnosti pro uživatele s postiženími
+	- Porucha zraku: barevné filtry, kontrast, vyhledávání, text to speech
+	- Poruchy sluchu: generované titulky a přepisy v **Microsoft Stream** (Angličtina a Španělština)
+	- Nervové poruchy: diktování, **Windows Hello**, blokování rušivých prvků
+	- Poruchy učení
+	- Poruchy mobility
+	- Mentální zdraví: ADHD, bipolární poruchy, deprese

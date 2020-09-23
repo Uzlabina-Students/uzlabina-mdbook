@@ -16,3 +16,9 @@
 ### Mimořádné události
 
 - IZS
+
+## 3. Hodina 2020-09-23
+
+### Soudobý svět
+
+28. 9.: Den české státnosti
