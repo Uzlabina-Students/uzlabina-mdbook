@@ -18,9 +18,9 @@ Formátování tabulek
 - Vytvoření tabulky která přesahuje několik stran
 - Možnost "Opakovat řádky záhlaví"
 - Vlastnosti buňky
- - Okraje buňky v pokročilých možnostech
- - Vzorce v tabulkách (je potřeba aktualizovat pole se vzorci)
- - Definování rozsahů - souvislé buňky oddělené znakem `:`, jednotlivé znakem `;`
+	- Okraje buňky v pokročilých možnostech
+	- Vzorce v tabulkách (je potřeba aktualizovat pole se vzorci)
+	- Definování rozsahů - souvislé buňky oddělené znakem `:`, jednotlivé znakem `;`
 - Převádění běžného textu odděleného tabulátory na skutečné tabulky (a naopak)
 
 Seznam objektů
