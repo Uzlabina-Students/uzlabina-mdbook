@@ -22,3 +22,7 @@ ___
 
 - CCNA3 Pretest Exam
 - CCNA3 Chapter 1 Quiz
+
+## 3. Hodina 2020-09-25
+
+- Opakování VTP apod.
