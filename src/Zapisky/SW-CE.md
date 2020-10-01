@@ -96,3 +96,37 @@
 	- Poruchy učení
 	- Poruchy mobility
 	- Mentální zdraví: ADHD, bipolární poruchy, deprese
+
+## 3. Hodina 2020-09-29
+
+### Spolupráce ve firmě
+
+**Úvod**
+
+- Lidé pracují na více projektech společně
+
+#### Chat a spolupráce MS Teams
+
+- **MS Teams** je centrální prvek komunikace a spolupráce
+- Poskytuje i sdílení souborů
+- Podporuje i práci mimo firmu
+- Existuje i online verze v prohlížeči
+- Propojení uživatelů
+	- Týmy a kanály
+		- Tým - skupina lidí, může být soukromý nebo veřejný, maximální počet je 5000 lidí
+		- Kanál - chat skupina v týmu
+	- Chat
+	- Hlasový hovor, až 10 000 účastníků
+
+#### Chat a spolupráce v MS Teams
+- Zabezpečení a soulad s vyhláškami (zákony)
+	- Šifrování dat
+	- Data Loss Prevention
+- Vzdálená spolupráce (ovládání PC) a vzdálená výuka
+
+#### Online schůzky v MS Teams
+- Sdílení stavu, myšlenky, společné řešení problémů...
+- Další funkce
+	- Plánování a připojení ke schůzce z více platforem
+	- Jedné schůzky se může účastnit více týmů
+	- Nahrávání a publikování schůzek pomocí Microsoft Stream
