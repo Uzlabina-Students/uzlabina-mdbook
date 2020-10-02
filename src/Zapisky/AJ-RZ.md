@@ -25,3 +25,5 @@ Co je důležité vědět k maturitě
 - politický systém
 
 [PDF dostupné zde](https://www.bridge-online.cz/wp-content/uploads/2016/09/sloupecky_2012.pdf)
+
+## 4. Hodina 2020-10-01

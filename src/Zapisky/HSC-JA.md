@@ -82,3 +82,78 @@
 - V podstatě jen proklikávání položek v menu
 - Interfaces, DHCP Client, DHCP Server, Pool...
 - Safe Mode (rollbackne nastavení když něco přeruší management spojení)
+
+## 2. Hodina 2020-10-02
+
+### Konfigurace, upgrade, licence RouterOS
+
+#### Konektivita
+- Sériová linka
+- SSH, telnet
+- CLI
+	- Skripty
+
+#### Úvodní konfigurace
+- Wan port s DHCP klientem
+- Lan porty vč. WiFi jsou bridge
+- DHCP server na LAN
+- Základní Firewall
+- NAT pro překlad LAN/WAN
+- IP adresa pro LAN `192.168.88.0/24`
+
+##### Alternativně žádná konfigurace
+- V RouterOS nabídka System > Reset Configuration (No Default Configuration)
+
+#### Upgrade firmware routeru
+- Kdy upgradovat?
+	- Oprava problému
+	- Potřeba nové funkce
+	- Zlepšení výkonu
+- Číst changelog  
+
+**Před upgradem**
+- Zjistit architekturu (mipsbe)
+- Kde získat balíčky pro upgrade
+	- [Software downloads](https://mikrotik.com/download)  
+
+**Manuální upgrade**
+- Položka *Files*
+- Po restartu se načte nová verze  
+
+**Automatický upgrade**
+- System > Packages  
+
+**Automatický (distribuovaný) upgrade**
+- Možnost použít router na místní síti jako zdroj pro upgrade
+
+#### Upgrade bootloaderu RouterBOOT
+- System > Routerboard (> Upgrade)
+- Poté restartovat
+
+#### Správa IP služeb
+- System > IP Services
+- Možnost omezení využívání sys. prostředků, zavřít porty
+
+#### Typy záloh
+- Binární záloha
+	- Files > Backup
+	- Obnovení zálohy doporučeno na identickém zařízení
+- Export zálohy
+	- Textová forma konfigurace
+
+##### Archivace souborů se zálohami
+- IP > Services povolit fileserver
+- Kopírování přes FTP, SFTP
+
+### Licence RouterOS
+- Šest úrovní
+	1. Demo (24 hodin)
+	2. Free (velmi omezeno)
+	3. WISP CPE (WiFi klient)
+	4. WISP (WiFi access point)
+	5. WISP (méně omezení)
+	6. Controller (bez omezení)
+
+#### Použití licencí
+- Úroveň nelze měnit, je ideální použít vhodnou licenci od začátku
+- Pozor při flashování úložiště, riziko ztráty licence
