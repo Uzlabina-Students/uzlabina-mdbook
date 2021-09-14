@@ -157,3 +157,7 @@
 #### Použití licencí
 - Úroveň nelze měnit, je ideální použít vhodnou licenci od začátku
 - Pozor při flashování úložiště, riziko ztráty licence
+
+## 3. Hodina 2020-12-04
+
+### Bezdrátové standardy

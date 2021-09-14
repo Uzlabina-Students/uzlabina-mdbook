@@ -22,6 +22,8 @@ $ cp /zlabshare/.zshinit_source .zshinit
 - 3 stroje: client, server, router
 - změna konfigurace v /etc/network/interfaces a /etc/sysctl.conf
 
+> Default username a password na virtuálech je `fresh:fresh`
+
 #### Konfigurace klienta
 */etc/network/interfaces/*
 ```
