@@ -7,8 +7,9 @@
 	- [Zápisky]()
 		- [Anglický Jazyk (RZ)](Zapisky/2021-2022/AJ-RZ.md)
 		- [Český Jazyk (AD)](Zapisky/2021-2022/CJ-AD.md)
+		- [Český Jazyk (HV)](Zapisky/2021-2022/CJ-HV.md)
 		- [Hardware a Sítě (JA)](Zapisky/2021-2022/HS-JA.md)
-		- [Software (ČE)](SW-CE.md)
+		- [Software (ČE)](Zapisky/2021-2022/SW-CE.md)
 
 ## Školní rok 2020/2021, třída I4.D
 
@@ -17,7 +18,6 @@
 		- [Začátek školního roku](Main/2020-2021/Organizace/zacatek.md)
 
 	- [Zápisky]()
-		- [Anglický Jazyk (AJ1)](Zapisky/2020-2021/2020-2021/AJ-RZ.md)
 		- [Aplikační Software (HS)](Zapisky/2020-2021/AS-HS.md)
 		- [Aplikační Software (KO)](Zapisky/2020-2021/AS-KO.md)
 		- [Český Jazyk - Seminář](Zapisky/2020-2021/CJ-AD.md)
