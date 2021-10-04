@@ -89,3 +89,14 @@ Pořadí akcí:
 * Objevují sousedy a navazují adjacencies
 * Propagují parametry na základě kterých se dva routery stanou sousedy
 * Nastaví routery jako Designated Router **(DR)** a Backup Designated Router **(BDR)** v multiaccess sítích (Ethernet) (P2P nevyžaduje multiaccess)
+
+## 5. Hodina 2021-10-01
+
+### Konfigurace OSPF routerů
+* Router ID - 32 bitová hodnota, zapsaná jako IPv4 adresa
+* Pokud není přiřazena ručně, generuje se automaticky
+
+Možnosti konfigurace OSPF ID
+1. Router ID je explicitně nastavené pomocí router-id příkazu
+2. Router ID není explicitně nastaveno, router použije nejvyšší IPv4 adresu jakéhokoliv loopback rozhraní
+3. Pokud neexistují loopback zařízení, router si vybere nejvyšší IPv4 adresu jakéhokoliv fyzického rozhraní
