@@ -65,3 +65,62 @@
 3. Tailwind Traders has millions of log entries that it wants to analyze. Which option would be ideal for analysis?
 	* Azure Synapse Analytics
 	
+## 3. Hodina 2021-10-04
+
+### [Azure Fundamentals part 3: Describe core solutions and management tools on Azure](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-solutions-management-tools-azure/)
+
+**Knowledge checks:**
+
+#### [Choose the best Azure IoT service for your application](https://docs.microsoft.com/en-us/learn/modules/iot-fundamentals/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-core-solutions-management-tools-azure)
+
+1. A company wants to build a new voting kiosk for sales to governments around the world. Which IoT technologies should the company choose to ensure the highest degree of security?
+	* Azure Sphere
+2. A company wants to quickly manage its individual IoT devices by using a web-based user interface. Which IoT technology should it choose?
+	* IoT Central
+3. You want to send messages from the IoT device to the cloud and vice versa. Which IoT technology can send and receive messages?
+	* IoT Hub
+
+#### [Choose the best AI service for your needs](https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-core-solutions-management-tools-azure)
+
+1. You need to predict future behavior based on previous actions. Which product option should you select as a candidate?
+	* Azure Machine Learning
+2. You need to create a human-computer interface that uses natural language to answer customer questions. Which product option should you select as a candidate?
+	* Azure Bot Service
+3. You need to identify the content of product images to automatically create alt tags for images formatted properly. Which product option is the best candidate?
+	* Azure Cognitive Services
+
+#### [Choose the best Azure serverless technology for your business scenario](https://docs.microsoft.com/en-us/learn/modules/serverless-fundamentals/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-core-solutions-management-tools-azure)
+
+1. You need to process messages from a queue, parse them by using some existing imperative logic written in Java, and then send them to a third-party API. Which serverless option should you choose?
+	* Azure Functions
+2. You want to orchestrate a workflow by using APIs from several well-known services. Which is the best option for this scenario?
+	* Azure Logic Apps
+3. Your team has limited experience with writing custom code, but it sees tremendous value in automating several important business processes. Which of the following options is your team's best option?
+	* Azure Logic Apps
+
+#### [Choose the best tools to help organizations build better solutions](https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-core-solutions-management-tools-azure)
+
+1. Which of the following choices would not be used to automate a CI/CD process?
+	* Azure Boards
+2. Which service could help you manage the VMs that your developers and testers need to ensure that your new app works across various operating systems?
+	* Azure DevTest Labs
+3. Which service lacks features to assign individual developers tasks to work on?
+	* Azure Pipelines
+
+#### [Choose the best tools for managing and configuring your Azure environment](https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-core-solutions-management-tools-azure)
+
+1. As an administrator, you need to retrieve the IP address from a particular VM by using Bash. Which of the following tools should you use?
+	* The Azure CLI
+2. You're a developer who needs to set up your first VM to host a process that runs nightly. Which of the following tools is your best choice?
+	* The Azure portal
+3. What is the best infrastructure-as-code option for quickly and reliably setting up your entire cloud infrastructure declaratively?
+	* ARM templates
+
+#### [Choose the best monitoring service for visibility, insight, and outage mitigation](https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-core-solutions-management-tools-azure)
+
+1. You want to be alerted when new recommendations to improve your cloud environment are available. Which service will do this?
+	* Azure Advisor
+2. Which service provides official outage root cause analyses (RCAs) for Azure incidents?
+	* Azure Service Health
+3. Which service is a platform that powers Application Insights, monitoring for VMs, containers, and Kubernetes?
+	* Azure Monitor
