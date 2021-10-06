@@ -190,3 +190,70 @@ Routing Protocol is "ospf 10"
   Distance: (default is 110)
 R1#
 ```
+
+### OSPF v Point to Point sítích
+* Cisco routery ve výchozím nastavení vyberou DR a BDR rozhraní v Ethernet rozhraních, i když se v linku nachází pouze jedno zařízení. Toto se dá ověřit příkazem `show ip ospf interface`
+```
+R1# show ip ospf interface GigabitEthernet 0/0/0
+GigabitEthernet0/0/0 is up, line protocol is up 
+  Internet Address 10.1.1.5/30, Area 0, Attached via Interface Enable
+  Process ID 10, Router ID 1.1.1.1, Network Type BROADCAST, Cost: 1
+  Topology-MTID    Cost    Disabled    Shutdown      Topology Name
+        0           1         no          no            Base
+  Enabled by interface config, including secondary ip addresses
+  Transmit Delay is 1 sec, State BDR, Priority 1
+  Designated Router (ID) 2.2.2.2, Interface address 10.1.1.6
+  Backup Designated router (ID) 1.1.1.1, Interface address 10.1.1.5
+  Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5
+    oob-resync timeout 40
+    Hello due in 00:00:08
+  Supports Link-local Signaling (LLS)
+  Cisco NSF helper support enabled
+  IETF NSF helper support enabled
+  Index 1/2/2, flood queue length 0
+  Next 0x0(0)/0x0(0)/0x0(0)
+  Last flood scan length is 1, maximum is 1
+  Last flood scan time is 0 msec, maximum is 0 msec
+  Neighbor Count is 1, Adjacent neighbor count is 1 
+    Adjacent with neighbor 2.2.2.2  (Designated Router)
+  Suppress hello for 0 neighbor(s)
+R1#
+``` 
+* Pokud se na síti nachází pouze dva routery, může se povolit point-to-point pro "ušetření" výkonu
+* Proces výběru DR/BDR je zbytečný
+* Point to Point se povolí příkazem `ip ospf network point-to-point`
+```
+R1(config)# interface GigabitEthernet 0/0/0
+R1(config-if)# ip ospf network point-to-point
+*Jun  6 00:44:05.208: %OSPF-5-ADJCHG: Process 10, Nbr 2.2.2.2 on GigabitEthernet0/0/0 from FULL to DOWN, Neighbor Down: Interface down or detached
+*Jun  6 00:44:05.211: %OSPF-5-ADJCHG: Process 10, Nbr 2.2.2.2 on GigabitEthernet0/0/0 from LOADING to FULL, Loading Done
+R1(config-if)# interface GigabitEthernet 0/0/1
+R1(config-if)# ip ospf network point-to-point 
+*Jun  6 00:44:45.532: %OSPF-5-ADJCHG: Process 10, Nbr 3.3.3.3 on GigabitEthernet0/0/1 from FULL to DOWN, Neighbor Down: Interface down or detached
+*Jun  6 00:44:45.535: %OSPF-5-ADJCHG: Process 10, Nbr 3.3.3.3 on GigabitEthernet0/0/1 from LOADING to FULL, Loading Done
+R1(config-if)# end
+R1# show ip ospf interface GigabitEthernet 0/0/0
+GigabitEthernet0/0/0 is up, line protocol is up 
+  Internet Address 10.1.1.5/30, Area 0, Attached via Interface Enable
+  Process ID 10, Router ID 1.1.1.1, Network Type POINT_TO_POINT, Cost: 1
+  Topology-MTID    Cost    Disabled    Shutdown      Topology Name
+        0           1         no          no            Base
+  Enabled by interface config, including secondary ip addresses
+  Transmit Delay is 1 sec, State POINT_TO_POINT
+  Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5
+    oob-resync timeout 40
+    Hello due in 00:00:04
+  Supports Link-local Signaling (LLS)
+  Cisco NSF helper support enabled
+  IETF NSF helper support enabled
+  Index 1/2/2, flood queue length 0
+  Next 0x0(0)/0x0(0)/0x0(0)
+  Last flood scan length is 1, maximum is 2
+  Last flood scan time is 0 msec, maximum is 1 msec
+  Neighbor Count is 1, Adjacent neighbor count is 1 
+    Adjacent with neighbor 2.2.2.2
+  Suppress hello for 0 neighbor(s)
+R1#
+```
+
+**Pozn.: *ip ospf network point-to-point* nefunguje na Gigabit ethernetech v Packet Traceru**

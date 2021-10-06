@@ -124,3 +124,27 @@
 	* Azure Service Health
 3. Which service is a platform that powers Application Insights, monitoring for VMs, containers, and Kubernetes?
 	* Azure Monitor
+
+## 4. Hodina 2021-10-05
+
+### [Azure Fundamentals part 4: Describe general security and network security features](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-general-security-network-security-features/)
+
+#### [Protect against security threats on Azure](https://docs.microsoft.com/en-us/learn/modules/protect-against-security-threats-azure/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-general-security-network-security-features)
+
+1. How can Tailwind Traders enforce having only certain applications run on its VMs?
+	* Create an application control rule in Azure Security Center.
+2. What's the easiest way for Tailwind Traders to combine security data from all of its monitoring tools into a single report that it can take action on?
+	* Collect security data in Azure Sentinel.
+3. Which is the best way for Tailwind Traders to safely store its certificates so that they're accessible to cloud VMs?
+	* Store the certificates in Azure Key Vault.
+4. How can Tailwind Traders ensure that certain VM workloads are physically isolated from workloads being run by other Azure customers?
+	* Run the VMs on Azure Dedicated Host.
+
+#### [Secure network connectivity on Azure](https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.az-900-describe-general-security-network-security-features)
+
+1. An attacker can bring down your website by sending a large volume of network traffic to your servers. Which Azure service can help Tailwind Traders protect its App Service instance from this kind of attack?
+	* Azure DDoS Protection
+2. What's the best way for Tailwind Traders to limit all outbound traffic from VMs to known hosts?
+	* Create application rules in Azure Firewall.
+3. How can Tailwind Traders most easily implement a deny by default policy so that VMs can't connect to each other?
+	* Create a network security group rule that prevents access from another VM on the same network.
