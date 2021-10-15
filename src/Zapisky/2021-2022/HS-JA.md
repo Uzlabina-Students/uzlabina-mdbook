@@ -257,3 +257,7 @@ R1#
 ```
 
 **Pozn.: *ip ospf network point-to-point* nefunguje na Gigabit ethernetech v Packet Traceru**
+
+## 7. Hodina 2021-10-12
+
+### OSPF - Opakování

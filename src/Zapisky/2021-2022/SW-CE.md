@@ -148,3 +148,86 @@
 	* Create application rules in Azure Firewall.
 3. How can Tailwind Traders most easily implement a deny by default policy so that VMs can't connect to each other?
 	* Create a network security group rule that prevents access from another VM on the same network.
+
+## 5. Hodina 2021-10-11
+
+### Open Source - Opakování
+
+* Richard Stallman - FSF
+
+### Téma hodiny - Práce s nápovědou
+
+* man pages
+* -h / --help argument
+* /usr/share/doc
+* GNU info
+
+#### MAN pages
+* Manuál
+* Seznam argumentů
+* Někdy i příklady použití
+* Příklad pro příkaz diff: `man diff`
+
+#### Argument -h / --help
+* Pro některé programy nejsou dostupné man pages
+* Obvykle méně obsáhlejší než MAN page
+* V některých programech také dostupný zkráceně jako `-h`
+* Příklad pro příkaz diff: `diff --help`
+
+#### Dokumentace v /usr/share/doc
+* Dokumentace pro nástroje, knihovny, příklady, konfigurační soubory...
+* Často ve formátu MD (markdown - jako tyhle zápisky)
+* Vhodné otevírat příkazem `less` místo `cat`
+* Příklad pro php-imagemagick: `less /usr/share/doc/php-imagick/README.md`
+
+#### GNU Info
+* Příkaz `info`
+* Ucelená dokumentace s odkazy, formátovaná
+
+## 6. Hodina 2021-10-15
+
+### Správa balíčků v UNIX-Like systémech
+
+* Instalace, aktualizace a správa softwaru
+* Předkompilované (binární) balíčky i kompilace při instalaci
+* Správa dependencí
+* Repozitáře
+* Každá rodina Linux systémů má jiný package manager
+
+### Systémy pro správu balíčků
+
+* Low level tools: provádí vlastní akce na pozadí
+* High level tools: vyhledávání metadat, uživatelska interakce  
+
+| Distribuce | Low-Level Tool | High-Level Tool |
+|---|---|---|
+|Debian|dpkg|apt|
+|CentOS|rpm|yum|
+|Arch|pacman|yay|
+|Void|xbps-install||
+|Gentoo|emerge||
+
+#### Low-Level nástroje
+* **Instalace přímo ze souborů balíčků, neprovádí se kontrola závislostí**  
+Debian: `dpkg -i package.deb`  
+CentOS: `rpm -Uvh package.rpm`
+* **Výpis balíčků v systému**  
+Debian: `dpkg -l`  
+CentOS: `rpm -qa`
+* **Vyhledávání informací o balíčků**  
+Debian: `dpkg --search název`  
+CentOS: `rpm -qf název`
+
+#### High-Level nástroje
+* **Instalace**  
+Debian: `apt install název`  
+CentOS: `yum install název`
+* **Vyhledání**  
+Debian: `apt search název`  
+CentOS: `yum search název`
+* **Odstranění**  
+Debian: `apt remove název`, případně `apt purge název`
+CentOS: `yum erase název`
+* **Info**  
+Debian: `apt show název`  
+CentOS: `yum info nízev`
