@@ -231,3 +231,44 @@ CentOS: `yum erase název`
 * **Info**  
 Debian: `apt show název`  
 CentOS: `yum info nízev`
+
+## 7. Hodina 2021-10-18
+
+### Sledování systémových prostředků na Linux systémech
+
+* Sledování činnosti OS
+* Monitorování výkonu, procesů
+* Monitorování paměti
+* Sledování využití úložiště
+
+#### Slevodání prostoru
+
+* `df -h` - zobrazení dostupného místa na mountpointech (-h - human readable)
+* `df -hi` - zobrazení inodes
+* `du -h` - disk usage, zobrazení konkrétních souborů (-h - human readable)
+
+## 8. Hodina 2021-10-22
+
+### Sledování operační paměti a CPU
+
+* Nástroj `top`, sledování využití systémových prostředků
+* `htop` je podobný nástroj
+* Rozdíly: top je v reálném čase, htop je modernější a zobrazí více informací
+* Nástroj `free` pro sledování paměti, přepínače `-h` pro zobrazení lidsky čitelných hodnot
+
+## 9. Hodina 2021-11-01
+
+### Sledování procesů
+
+* Nástroj `ps`, `pstree`
+
+### Signály pro ukončení procesů
+|Název|Číslo|Popis|
+|---|---|---|
+|SIGTERM|15|Korektní ukončení|
+|SIGINT|2|Může být ignorován|
+|SIGKILL|9|Vynucené ukončení|
+|SIGHUP|1|Hang up (reload configu)|
+|SIGSTP|20|Ctrl + z, pozastavení činnosti|
+|SIGSTOP|19|Pozastaven do restartu|
+|SIGCONT|18|Pokračování v činnosti (bg, fg)|
