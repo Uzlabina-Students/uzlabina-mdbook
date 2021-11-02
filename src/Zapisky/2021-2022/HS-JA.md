@@ -261,3 +261,51 @@ R1#
 ## 7. Hodina 2021-10-12
 
 ### OSPF - Opakování
+
+## 8. Hodina 2021-10-15
+
+### Ověření funkčnosti Single-Area OSPFv2 (Packet Tracer)
+
+### Kyberbezpečnost
+
+#### Přehled výuky
+* Momentální stav
+* Threat actors
+* Malware
+* Běžné útoky
+* TCP a UDP zranitelnosti
+* IP Services
+* Best Practices  
+
+**Ethical Hacking**
+* Otázka morality
+* Otázka legality
+
+### Pojmy
+|Název|popis|
+|---|---|
+|Assets|An asset is anything of value to the organization. It includes people, equipment, resources, and data.|
+|Vulnerability|A vulnerability is a weakness in a system, or its design, that could be exploited by a threat.|
+|Threat|A threat is a potential danger to a company’s assets, data, or network functionality.|
+|Exploit|An exploit is a mechanism that takes advantage of a vulnerability.|
+|Mitigation|Mitigation is the counter-measure that reduces the likelihood or severity of a potential threat or risk. Network security involves multiple mitigation techniques.|
+|Risk|Risk is the likelihood of a threat to exploit the vulnerability of an asset, with the aim of negatively affecting an organization. Risk is measured using the probability of the occurrence of an event and its consequences.
+|
+### Vektory útoků
+* Externí a interní
+
+## 9. Hodina 2021-10-22
+
+### Malware
+* Adware
+* Ransomware
+* Rootkit
+* Spyware
+* Worm
+
+#### Typy virů
+* Vir v boot sektoru
+* Vir ve firmwaru
+* Makro virus (MS Office)
+* Virus v programu
+* Virus ve skriptu
