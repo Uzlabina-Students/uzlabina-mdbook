@@ -272,3 +272,12 @@ CentOS: `yum info nízev`
 |SIGSTP|20|Ctrl + z, pozastavení činnosti|
 |SIGSTOP|19|Pozastaven do restartu|
 |SIGCONT|18|Pokračování v činnosti (bg, fg)|
+
+## 10. Hodina 2021-11-05
+
+### Úložiště, swapování, oddíly...
+
+#### Správa diskových oddílů
+* Typy oddílů: GPT, MBR
+* Nástroj `fdisk` pro správu oddílů
+* Nástroj `gdisk` pro správu GPT (podporuje i starší)
