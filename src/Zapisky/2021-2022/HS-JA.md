@@ -309,3 +309,45 @@ R1#
 * Makro virus (MS Office)
 * Virus v programu
 * Virus ve skriptu
+
+### Typy útoků
+* Útoky na přístupové údaje (password attacks)
+* Spoofing
+* Denial of Service (případně distributed)
+* Recon útoky (reconnaissance), zjišťování informací o cíli
+  * Vyhledávání veřejných informací
+  * Interní nebo externí sken sítě, např. nmap
+
+## 9. Hodina 2021-11-02
+
+### Opakování - typy útoků, social engineering útoky
+
+#### Typy social engineering útoků
+* Pretexting
+* Phishing
+* Spear phishing
+* Spam
+* SfS (something for something)
+* Baiting
+* Impersonating
+* Tailgating
+* Shoulder surfing
+* Dumpster diving
+
+### IP Útoky
+
+#### Typy IP útoků
+* ICMP
+  * Útočníci používají různé zprávy:
+  
+  |ICMP Zpráva|Účel|
+  |---|---|
+  |echo request a reply|Používá se k ověření existence cíle a DoS útoku|
+  |unreachable|Skenování sítě, recon|
+  |mask reply|Skenování interní sítě|
+  |redirects|Přesměrování provozu sítě přes kompromitované zařízení, počátek MITM útoki|
+  |router discovery|Vkládání falešných záznamů do routovací tabulky cíle|
+* Spoofování adres
+  * Manuální nastavení MAC adresy vlastního zařízení za účelem obcházení MAC whitelistu/blacklistu
+* MITM
+* Session hijack
