@@ -351,3 +351,155 @@ R1#
   * Manuální nastavení MAC adresy vlastního zařízení za účelem obcházení MAC whitelistu/blacklistu
 * MITM
 * Session hijack
+
+## 10. Hodina 2021-11-09
+
+### Network security best practices
+
+#### CIA triad
+
+1. Confidentiality
+2. Integrity
+3. Availability
+
+#### Zařízení poskytující bezpečnost
+
+* VPN
+* ASA Firewall (Cisco firewall, stateful)
+* IPS (Intrusion Prevention System)
+* ESA/WSA (Email/Web Security Appliance)
+* AAA Server (např. Radius)
+
+### Firewally
+
+* Důležité pro bezpečnost sítě
+* Vynucují pravidla sítě a externího přístupu
+
+## 11. Hodina 2021-11-12
+
+### Kryptografie
+
+* Hashování
+* Šifrování dat
+
+## 12. Hodina 2021-11-16
+
+### Network Security Concepts - ACLs
+
+#### ACLs na Cisco routerech
+
+* Příklady aplikace
+
+|Úkol|Příklad|
+|---|---|
+|Omezování provozu pro lepší výkon sítě|Omezení video provozu, blokování video provozu|
+|Kontrolování toku provozu|Limitování provozu jen na určité odkazy|
+|Základní bezpečnost sítě|Přístup k HR síti pouze pro autorizované uživatele|
+|Monitorování zařízení za účelem povolení či zákazu přístupu k síťovým službám|Přístup k daným typům (ftp..) povolen pouze určitým skupinám uživatelům|
+|Přidání priority konkrétním síťovým aktivitám|QoS - např. hlasové služby budou mít vyšší prioritu aby hovory neměly zpoždění|
+
+#### Filtrování paketů
+
+* Typy filtrování (podle IP, obsahu...)
+* IP filtrování
+  1. Router extrahuje zdrojovou IPv4 z hlavičky paketu
+  2. Router začne od shora ACL a porovnává danou IPv4 s každým ACE (ACL Statements)
+  3. Pokud je nalezena shoda, router provede instrukci, buďto povolí nebo zakáže komunikaci
+  4. Pokud není nalezena žádná shoda, router adresu nepustí, protože automaticky je povolené pravidlo zahazování všech neznámých
+
+## 13. Hodina 2021-11-23
+
+### Vytváření ACL
+
+* Deny, Permit pravidla
+
+#### Syntax pro standardní číslovaná IPv4 ACL
+
+* `Router(config)# access-list access-list-number {deny | permit | remark text} source [source-wildcard] [log]`
+
+|Parametr|Popis|
+|---|---|
+|*access-list-number*|Číslo ACL, 1-99 nebo 1300-1999|
+|**deny**|Zakáže přístup
+|**permit**|Povolí přístup
+|remark *text*|Poznámka, nepovinné
+|*source*|Identifikuje zdrojovou síť nebo hosta pro filtrování, může být **any** pro všechny sítě, "**host** *ip-address*" nebo jen *ip-address*|
+|*source-wildcard*|Wildcard maska pro zdroj, nepovinné|
+|**log**|Logování pro ACL, nepovinné|
+
+* Odstranění ACL: `no access-list access-list-number`
+
+#### Syntax pro standardní pojmenovaná IPv4 ACL
+
+* `Router(config)# ip access-list standard access-list-name`
+* Odstranění ACL: `no ip access-list standard access-list-name`
+* Jména jsou alfanumerická, case sensitive a musí být unikátní
+* Kapitalizace není povinná ale je doporučená
+
+#### Aplikování standardního IPv4 ACL
+
+* `Router(config-if) # ip access-group {access-list-number | access-list-name} {in | out}`
+
+#### Odstranění standardního IPv4 ACL z interface
+
+* `no ip access-group`
+
+### Příklady číslovaného IPv4 ACL
+
+![IPv4 ACL Příklad](HS-JA_Images/acls1.png)
+
+* Pouze PC1 může na internet
+
+```
+R1(config)# access-list 10 remark ACE permits ONLY host 192.168.10.10 to the internet
+R1(config)# access-list 10 permit host 192.168.10.10
+R1(config)# do show access-lists
+Standard IP access list 10
+    10 permit 192.168.10.10
+R1(config)#
+```
+
+* Všichni hosti na LAN 2 také můžou na internet
+  * Přidání `20 permit 192.168.20.0, wildcard bits 0.0.0.255`
+
+```
+R1(config)# access-list 10 remark ACE permits all host in LAN 2
+R1(config)# access-list 10 permit 192.168.20.0 0.0.0.255
+R1(config)# do show access-lists
+Standard IP access list 10
+    10 permit 192.168.10.10
+    20 permit 192.168.20.0, wildcard bits 0.0.0.255
+R1(config)#
+```
+
+#### Zobrazení ACL
+
+* `show run | section access-list`
+* Ověření ACL na rozhraní: `show ip int <interface> | include access list`
+
+### Příklady pojmenovaného ACL
+
+* Odebrání číslovaného ACL z předchozího příkladu
+  * `R1(config)# no access-list 10`
+* Vytvoření pojmenovaného ACL
+
+```
+R1(config)# ip access-list standard PERMIT-ACCESS
+R1(config-std-nacl)# remark ACE permits host 192.168.10.10
+R1(config-std-nacl)# permit host 192.168.10.10
+```
+
+### Úprava ACL
+
+#### Metoda textového editoru
+
+* Nejdřív zobrazení existujících: `show run | section access-list`
+* Poté zkopírujeme obsah, přepíšeme co potřebujeme v text editoru a vytvoříme ACL znovu
+
+#### Metoda sekvenčních čísel
+
+* coming soon
+
+### Statistiky
+
+* Reset: `clear access-list counters NO-ACCESS`

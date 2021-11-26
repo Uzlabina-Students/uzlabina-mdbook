@@ -42,3 +42,43 @@ Výskyty úvady:
 2. [Stať] Hodnocení faktů
 3. [Stať] Argumentace, dokazování
 4. [Závěr]
+
+## 6. Hodina 2021-11-05
+
+### Čítanka str. 65, ukázka **Jeden den Ivana Děnisoviče"**
+
+|Argot, slang|Prostředí|Ustálená slovní spojení|
+|---|---|---|
+|Barák|brzy ráno, zima|Štábní barák|
+|Bečka (sud)|||
+|(ne)erární (soukromý majetek)|obecné||
+|Mohovitého (movitého, movitý)||
+|Okouknout||
+|Službička||
+|Spíchnout (sešít)||
+
+## 7. Hodina 2021-11-09
+
+### Četba - George Orwell, Farma Zvířat
+
+## 8. Hodina 2021-11-23
+
+### Obecný úvod k sci-fi a fantasy
+
+* Rozdíly
+
+|Sci-Fi|Fantasy|
+|---|---|
+|Budoucnost|Minulost|
+|Technologie|Nadpřirozeno|
+|Předpodívání budoucnosti, představy o vývoji|Bájná minulost, občas založené na legendách|
+|Cestování vesmírem|Nadpřirozené bytosti|
+|Cestování časem|
+|Dystopie|
+|Mimozemská život|
+|Robotika|
+
+* Zakladatel Sci-fi - Jules Verne, Herbert George Wells (technologické sci-fi)
+
+* Příklady
+	* 

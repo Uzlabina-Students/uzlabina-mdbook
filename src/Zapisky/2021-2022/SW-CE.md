@@ -281,3 +281,36 @@ CentOS: `yum info nízev`
 * Typy oddílů: GPT, MBR
 * Nástroj `fdisk` pro správu oddílů
 * Nástroj `gdisk` pro správu GPT (podporuje i starší)
+
+## 11. Hodina 2021-11-08
+
+### Formátování v unix-like systémech
+
+* Formátování = vytvoření souborového systému
+* Vytvoření filesystemu přes `mkfs`, případně `mkfs.`\<název filesystému\>
+	* Další možnost je `mkfs -L <libovolný název oddílu>`
+
+## 12. Hodina 2021-11-12
+
+### Připojování filesystému v UNIX-like systémech
+
+* Nástroj `mount` / `umount` pro odpojení
+* Mount bez fstab konfigurace přes `mount <zařízení> <adresář>`, pokud se již v fstab nachází konfigurace stačí `mount <adresář> `
+
+## 13. Hodina 2021-11-22
+
+### Raid, LMV (logické svazky), zálohování
+
+#### RAID
+
+* Technologie zajišťující redundanci ukládaných dat
+* Může spojením několika fyzických disků vytvořit jeden logický
+* Např. RAID 0, RAID 1, RAID 5
+* Konfigurace RAID - `mdadm`
+* Ověření - `cat /proc/mdstat`
+* Spuštění service pomocí systemd
+* RAID 0 - výkon důležitější než redundance
+* RAID 1 - využití pro běžné oddíly, např /home
+	* `mdadm --create --level=1`
+* RAID 5 - servery, úložiště
+	* `mdadm --create --level=5`
