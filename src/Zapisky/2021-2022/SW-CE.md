@@ -314,3 +314,110 @@ CentOS: `yum info nízev`
 	* `mdadm --create --level=1`
 * RAID 5 - servery, úložiště
 	* `mdadm --create --level=5`
+
+## 14. Hodina 2021-11-29
+
+### Uživatelské účty a oprávnění s unix-like systémech
+
+#### Vytvoření a úprava uživatele
+
+* Příkaz `useradd` pro přidání uživatele
+* Příkaz `userdel` pro smazání uživatele
+* Příkaz `usermod` pro úpravu uživatele
+
+#### Vytvoření a úprava skupin
+
+* Příkaz `groupadd` pro přidání skupiny
+* Příkaz `groupdel` pro smazání skupiny
+* Příkaz `groupmod` pro úpravu skupiny
+
+* Úprava oprávnění: `chmod`
+
+## 15. Hodina 2021-12-03
+
+### Oprávnění a atributy souborů
+
+#### Zobrazení typů souborů a adresářů
+
+* Příkaz `ls` - parametry `-l`, `-a`
+	* Znaky: `-` standardní soubor, `-d` adresář, `l` symbolický odkaz, `c` char device (např. tty), `b` block device
+
+#### Změna oprávnění
+
+* Příkaz `chmod`
+	* Syntax: `chmod xxx soubor` kde xxx je číslo unix oprávnění
+
+### ACLs souborů
+* Typy
+	* Acccess - Soubory, adresáře
+	* Default - Adresáře
+* Příkazy
+	* Získání informací: `getfacl <soubor>`
+	* Nastavení ACLs: `setfacl -m <režim> <soubor>`
+
+### Kvóty úložiště
+* `quotacheck` - kontrola kvóty
+* `quotaon` - zapnutí kvóty
+* Kvóty samotné se určují v fstabu
+
+## 16. Hodina 2021-12-17
+
+### LDAP, DNS server
+
+#### Konfigurace DNS s podporou cachingu
+
+* Překlad IP na hostnames a opačně
+* Malé sítě
+	* Soubor hosts (`/etc/hosts`)
+	* Adresy pro jednotlivé počítače
+	* např. `192.168.0.2 web web.mojedomena.com`
+* Velké sítě
+	* DNS Server
+	* Začíná ROOT zónou
+	* Dotazy se ukládají na neautorativní servery, caching
+* Linux
+	* Nástroj `bind`
+	* Package název `bind-utils`
+
+## 17. Hodina 2021-12-20
+
+### Vytváření BIND zón
+
+[prostě tohle](https://pgl.yoyo.org/as/bind-zone-file-creator.php)
+
+## 18. Hodina 2022-01-03
+
+### DHCP Klient a Server
+
+* Služba DHCP automaticky přiděluje konfiguraci sítě nově připojeným klientům
+* IP adresy jsou rezervovány pouze pro určitou dobu
+* Instalace
+	* `yum instal dhcp`
+	* `apt install isc-dhcp-server`
+	* `apt install dhcpcd`
+* Kongigurace DHCP serveru: `/etc/dhcp/dhcpcd.conf`
+* Start: `systemctl enable --now dhcpcd`
+* Na firewallu povolit port UDP 67
+
+## 19. Hodina 2022-01-07
+
+### OpenLDAP
+
+* Přístup k adresářovým službám - LDAP (Lightweight Directory Access Protocol)
+* Vytváří sdílenou infrastrukturu pro správu objektů a síťových prvků (uživatelé, skupiny, e-mail adresy...)
+* Základ LDAP je záznam, který lze identifikovat pomocí DN (Distinguished Name)
+* Každý záznam má atribut a každý atribut má jednu nebo více hodnot, odděleny mezerou
+* Atributy jsou označené řetězci, např. *cn* nebo *mail*
+
+#### Instalace LDAP
+
+* `apt install slapd ldap-utils`
+* Spustid daemon: `systemctl start slapd`
+* Povolit průchod firewallem: `firewall-cmd --add-service=ldap` nebo:
+* `ufw allow ldap`
+
+#### Konfigurace LDAP
+
+* Generace účtu: `slappasswd`
+* Konfigurační soubor **LDIF**
+	* `ldaprootpasswd.ldif`

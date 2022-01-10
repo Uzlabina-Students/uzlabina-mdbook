@@ -80,5 +80,34 @@ Výskyty úvady:
 
 * Zakladatel Sci-fi - Jules Verne, Herbert George Wells (technologické sci-fi)
 
-* Příklady
-	* 
+## 9. Hodina 2021-11-26
+
+## 10. Hodina 2021-11-30
+
+### Isaac Asimov - Já Robot
+
+* Základní zákony robotiky
+	1. Robot nesmí ublížit člověku nebo svou nečinností dopustit, aby bylo člověku ublíženo.
+	2. Robot musí uposlechnout příkazů člověka, kromě případů, kdy jsou tyto příkazy v rozporu s prvním zákonem.
+	3. Robot musí chránit sám sebe před poškozením, kromě případů, kdy je tato ochrana v rozporu s prvním, nebo druhým zákonem.
+* Dodatečné zákony robotiky
+	0. Robot nesmí ublížit lidstvu nebo svou nečinností dopustit, aby mu bylo ublíženo.
+
+## 11. Hodina 2021-12-08
+
+### Česká litleratura 20. století
+
+#### 1 měsíc bez 10 věcí
+
+1. škola
+2. televize
+3. auto
+4. myčka
+
+## 12. Hodina 2022-01-04
+
+### Ota Pavel
+
+## 13. Hodina 2022-01-07
+
+### Obsluhoval jsem Anglického Krále

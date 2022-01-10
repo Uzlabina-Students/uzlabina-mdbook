@@ -496,10 +496,48 @@ R1(config-std-nacl)# permit host 192.168.10.10
 * Nejdřív zobrazení existujících: `show run | section access-list`
 * Poté zkopírujeme obsah, přepíšeme co potřebujeme v text editoru a vytvoříme ACL znovu
 
-#### Metoda sekvenčních čísel
-
-* coming soon
-
 ### Statistiky
 
 * Reset: `clear access-list counters NO-ACCESS`
+
+## 14. Hodina 2021-11-30
+
+### Charakteristiky NAT
+
+#### Privátní IPv4 rozsahy
+
+|Třída|Rozsah|Prefix|
+|---|---|---|
+|A|10.0.0.0 - 10.255.255.255|10.0.0.0/8|
+|B|172.16.0.0 - 172.31.255.255|172.16.0.0/12|
+|C|192.168.0.0 - 192.168.255.255|192.168.0.0/16|
+
+* NAT překlad
+
+## 15. Hodina 2021-12-03
+
+### NAT pro IPv4 - Druhy NATů
+
+* Statický NAT
+* Dynamický NAT
+
+#### Statický NAT
+
+* 1 inside local = 1 inside global
+
+#### Dynamický NAT
+
+* first come, first serve
+
+## 16. Hodina 2021-12-07
+
+### Statický NAT
+
+* Packet - Cesta z Inside Local na Outside Local, poté z Inside Global na Outside Global
+* Inside a Outside Global jsou často stejné adresy
+
+### Scénář statického NATu
+
+## 17. Hodina 2021-12-17
+
+### LAN/WAN opakování
