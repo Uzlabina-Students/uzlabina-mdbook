@@ -421,3 +421,49 @@ CentOS: `yum info nízev`
 * Generace účtu: `slappasswd`
 * Konfigurační soubor **LDIF**
 	* `ldaprootpasswd.ldif`
+
+## 20. Hodina 2022-01-10
+
+### FTP, webové služby
+
+#### FTP
+
+* Přenos dat mezi klientem a serverem
+* Klient používá program `ftp`
+* Na serveru běží FTP server
+	* CentOS: `yum install vsftpd`
+	* Debian: `apt isntall vsftpy`
+* Povolení a start služby: `systemctl enable --now vsftpd`
+
+#### Konfigurace FTP serveru
+
+* Konfigurační soubor `/etc/vsftpd/vsftpd.conf`
+* Anonymní přístup
+	* `anonymous_enable=YES`
+	* `no_anon_password=YES`
+	* `anon_root=/.../` (default /var/ftp)
+* Read only: `write_enable=NO`
+
+##### Oprávnění
+
+* Omezení ověřených uživatelů
+```
+chroot_local_user=YES
+chroot_list_enable=YES
+```
+* Omezení provozu
+```
+anon_max_rate=bytespersecond
+local_max_rate=bytespersecond
+max_per_ip=x
+```
+* MOTD (banner)
+```
+ftpd_banner=nejaky text sem idk
+```
+* Po dokončení konfigurace je potřeba restartovat service
+
+#### Testování FTP serveru
+
+* Testování lze provést skrz prohlížeč, ftp...
+	* `ftp localhost ...`
