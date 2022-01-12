@@ -11,6 +11,7 @@
 		- [Hardware a Sítě (JA)](Zapisky/2021-2022/HS-JA.md)
 		- [Hardware a Sítě - cvičení (JA)](Zapisky/2021-2022/HSC-JA.md)
 		- [Software (ČE)](Zapisky/2021-2022/SW-CE.md)
+		- [ZSV (VA)](Zapisky/2021-2022/ZSV-VA.md)
 
 ## Školní rok 2020/2021, třída I4.D
 
