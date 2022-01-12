@@ -541,3 +541,11 @@ R1(config-std-nacl)# permit host 192.168.10.10
 ## 17. Hodina 2021-12-17
 
 ### LAN/WAN opakování
+
+## 18. Hodina 2022-01-11
+
+### Tradiční možnosti připojení k WAN
+
+* Z počátku použití "analogového" přenosu na starších ústřednách
+  * Sériová / paralelní komunikace
+* Přechod na komunikaci pomocí paketů
