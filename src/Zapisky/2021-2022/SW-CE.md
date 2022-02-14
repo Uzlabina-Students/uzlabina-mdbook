@@ -467,3 +467,81 @@ ftpd_banner=nejaky text sem idk
 
 * Testování lze provést skrz prohlížeč, ftp...
 	* `ftp localhost ...`
+
+## 21. Hodina 2022-01-17
+
+### Virtualizace a kontejnery
+
+#### Konfigurace a správa virtuálních strojů
+
+* Ověřit podporu virtualizace na CPU
+	* `grep -E 'vmx|svm` /proc/cpuinfo
+* Instalace nástrojů pro virtualizaci
+	* `apt install qemu virt-manager`
+* Vytvoření virtuálního PC
+	* `virt-install --name=název --ram=1024 --vcpus=1 --cdrom=soubor.iso --os-type=linux --os-variant=rhel7 --network-type=direct,source=eth0 --disk disk.qcow2,size=8`
+
+#### Užitečné virt-manager příkazy
+
+* `virsh list --all`
+* `virsh dominfo NázevDomény`
+* `virsh edit NázevDomény`
+* `virsh autostart NázevDomény`, případně `--disable` pro zakázání autostartu
+* `virsh start NázevDomény` a `virsh shutdown NázevDomény` pro zapnutí/vypnutí VM
+* `virt-clone -o NázevStaréDomény --auto-clone -n NázevNovéDomény` pro klonování domény
+
+### Kontejnery (Docker)
+
+* Izolace aplikace
+* Jednoduchá automatizace a hromadná správa
+* `docker ps` stav Dockeru
+* `docker stop`, `docker- start`
+* `docker rm` pro odstranění kontejneru, `docker image remove` pro odstranění obrazu
+
+## 22. Hodina 2022-02-07
+
+### Tisk v operačních systémech UNIX
+
+#### OpenPrinting CUPS (Common UNIX Printing System)
+
+* Open Source software pro tisk
+* Založen na protokolu IPP Everywhere
+* Možnosti funkce
+	* Stav tiskárny, fronta
+	* Vytvoření úlohy
+* Nastavení CUPS přes webové rozhraní
+* Příkaz `lpadmin -p <tiskárna>`
+* Volby
+	* -D "popisek"
+	* -E - povolení tiskárny
+	* -L "location"
+	* -m "model"
+	* -c "třída"
+* Ovladače tiskáren
+	* `lpinfo`
+* CLI nástroj
+	* `cupsctl`
+
+## 23. Hodina 2022-02-11
+
+### Tisk v operačních systémech UNIX, část 2.
+
+* Příkaz `lp`, `lpr` (poté název souboru)
+* Seznam tiskáren: `lpstat -p -d`
+
+#### Možnosti tisku
+
+* `lp -n <počet kopií> <soubor>`
+* `lpr -#<počet kopií> <soubor>` (součást `lprng`)
+* za příkazem `lp` možnosti pomocí `-o`
+	* `media=`
+		* `Letter, Transparency, MultiPurpose...`
+	* `sides=`
+	* `range=`
+
+### Siťové tiskárny
+
+* Bonjour pro nalezení síťových tiskáren
+* Automatická instalace pomocí Bonjour
+	* `lpinfo --include-schemes dnssd -v` (součást balíčku `cups-client`)
+	* URI tiskárny se poté použije k instalace tiskárny
