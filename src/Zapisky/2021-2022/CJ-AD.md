@@ -111,3 +111,25 @@ Výskyty úvady:
 ## 13. Hodina 2022-01-07
 
 ### Obsluhoval jsem Anglického Krále
+
+## 14. Hodina 2022-01-12
+
+### Povídka Běh Prahou
+
+Věci závadné pro režim  
+* Zmínky o slibech
+* Zdůraznění slibované tolerance
+* Zmínka západu
+* Soukromé vlastnictví
+
+## 15. Hodina 2022-01-18
+
+### Ludvík Aškenazy - Vajíčko
+
+### Ota Pavel - Moje První Ryba
+
+## 16. Hodina 2022-02-08
+
+### Jaroslav Seifert - Maminka
+
+http://www.i4.cz/play/maminka/Maminka-Basnicky.pdf
