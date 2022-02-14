@@ -549,3 +549,104 @@ R1(config-std-nacl)# permit host 192.168.10.10
 * Z počátku použití "analogového" přenosu na starších ústřednách
   * Sériová / paralelní komunikace
 * Přechod na komunikaci pomocí paketů
+
+## 19. Hodina 2022-01-18
+
+### Možnosti připojení k internetu
+
+* Metro Ethernet (metropolitní síť)
+
+\<A\> --- (X)\[WAN\](X) --- \<B\>
+
+* Zákazníci A, B připojeni k síti WAN
+* K síti WAN připojen i internet
+* MPLS (Multiprotocol Label Switching)
+
+### Internetové připojení
+
+||Internet-Based||
+|---|---|---|
+||Broadband VPN||
+|**Wired**||**Wireless**|
+|xDSL||Municipal Wi-Fi|
+|Cable||Cellular|
+|Optical Fiber||Satellite Internet|
+|||WiMax|
+
+#### DSL
+
+* Technologie DSL (Digital Subscriber Line)
+* Analogová komunikace poslední míle přes telefonní linku
+* ADSL (Asymetric) - upstream na 26\~138 KHz, downstream 138~1100 KHz
+  * Upředňostňován download před uploadem, asymetrické připojení
+* Schéma
+  * Domov > DSL Modem > Telefonní linka > DSLAM (DSL Access Multiplexer) > PSTN / Internet
+* PPP Protokol - Point-To-Point pro DSL, možnost autentizace, přidělení IPv4 atd
+
+#### Kabelové Připojení
+
+* DOCSIS (Data Over Cable Service Interface Specification)
+
+#### Optické Vlákno
+
+* Fiber to Home (FTTH)
+* Fiber to the Building (FTTB)
+* Fiber to the Node/Neighbourhood (FTTN)
+
+#### Cellular Připojení
+
+#### Satelitní Připojení
+
+#### WiMAX
+
+## 20. Hodina 2022-02-11
+
+### Implementace QoS
+
+#### Tři fáze
+
+* Klasifikace
+  * Klasifikace paketů
+  * Označování
+* Zabránění zahlcení
+  * Některý provoz může být dropped
+* Správa zahlcení
+  * Pokud provoz přesáhne dostupné prostředky, provoz se bude řadit
+
+#### Označování provozu (klasifikace)
+
+|QoS Tools|Layer|Marking Field|Width in Bits|
+|---|---|---|---|
+|Ethernet|2|Class of Service (CoS)|3|
+|Wi-Fi|2|Wi-Fi Traffic Identifier (TID)|3|
+|MPLS|2|Experimental (EXP)|3|
+|IPv4 a IPv6|3|IP Precedence|3|
+|IPv4 a IPv6|3|Differentiated Services Code Point (DSCP)|6|
+
+#### Zabránění zahlcení
+
+|<!-- -->|<!-- -->|
+|--|--|
+|Plná řada|Plné zahazování paketů|
+|Maximální práh|Zahození procenta|
+|Minimální práh||
+|Prázdná řada|Žádné zahazování|
+
+#### QoS Ethernet Hodnoty
+
+|Hodnota|Popis|
+|---|---|
+|7|Rezervována|
+|6|Rezervována|
+|5|Voice Bearer|
+|4|Videoconferencing|
+|3|Call Signaling|
+|2|High-Priority Data|
+|1|Medium-Priority Data|
+|0|Best-Effort Data|
+
+#### DSCP Hodnoty
+
+* Best-Effort (BE) - výchozí pro všechny IP pakety. Výchozí hodnota je 0
+* Expedited Forwarding (EF) - doporučeno pouze pro nejdůležitější provoz, zejména hlasový
+* Assured Forwarding (AF)
