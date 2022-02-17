@@ -133,3 +133,31 @@ Věci závadné pro režim
 ### Jaroslav Seifert - Maminka
 
 http://www.i4.cz/play/maminka/Maminka-Basnicky.pdf
+
+## 15. Hodina 2022-02-15
+
+### Šimek a Grossmann - povídka Výchovný Koncert
+
+*Rozbor povídky, na čem je založený humor*
+
+* Poslech audio záznamu
+* Jazykové obraty
+* Využití spisovné češtiny a vyprávěcího způsobu
+* Dramatizovaná přímá řeč
+* Vyprávění z pohledu žáka ve třídě
+
+### Jiří Suchý, Jiří Šlitr
+
+* Tři Tety
+
+## 16. Hodina 2022-02-16
+
+### Jára Cimrman (Ladislav Smoljak) - Vyšetřování Ztráty Třídní Knihy
+
+* Divadelní hra, komedie
+* Druhá hra Divadla Járy Cimrmana
+* České drama 60. let
+	* Vlna uvolnění, Pražské jaro, normalizace...
+	* Pád komunistického režimu 1989
+* Dvě části - série odborných referátů, život a díla Cimrmana
+	* Činohra, vyšetřování ztráty třídní knihy
