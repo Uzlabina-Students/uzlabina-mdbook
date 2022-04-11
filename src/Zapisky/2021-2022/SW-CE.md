@@ -518,6 +518,7 @@ ftpd_banner=nejaky text sem idk
 	* -m "model"
 	* -c "třída"
 * Ovladače tiskáren
+	* `lpstat`
 	* `lpinfo`
 * CLI nástroj
 	* `cupsctl`
@@ -545,3 +546,47 @@ ftpd_banner=nejaky text sem idk
 * Automatická instalace pomocí Bonjour
 	* `lpinfo --include-schemes dnssd -v` (součást balíčku `cups-client`)
 	* URI tiskárny se poté použije k instalace tiskárny
+
+## 24. Hodina 2022-02-18
+
+### Microsoft 365 Fundamentals (zase)
+
+* Cloud solution (SaaS)
+
+#### Nástroje
+
+##### Produktivita, týmová práce
+
+* Teams
+* Outlook
+* OneDrive
+* Yammer
+
+##### Správa firmy
+
+* Endpoint Manager
+* PowerPlatform
+* Workplace Analytics
+* Project Online
+
+##### Zabezpečení, compliance
+
+* Řešení pro správu přístupu a identit, ochrana dat, řízení... 
+
+## 25. Hodina 2022-02-25
+
+### Microsoft Teams, Yammer, Stream...
+
+* Nástroje pro angažovanost zaměstnanců
+* MS Teams
+	* Propojení uživatelů pomocí kanálů atd
+		* Chat
+		* Hlasové a video hovory, schůzky
+	* Centrální prvek umožňující spolupráci týmů a jednotlivců
+* Yammer
+	* Propojení lidí napříč firmou nezávisle na pracovním místě
+	* Integrace s Microsoft 365
+	* Enterprise bezpečnost
+	* Soulad (compliance)
+* Stream
+	* Videokonference

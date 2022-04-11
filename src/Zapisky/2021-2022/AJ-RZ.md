@@ -61,3 +61,14 @@ I'm not losing my hope yet. I don't mind shipping you the broken unit or waiting
 Best regards
 
 Marek Němec
+
+## 4. Hodina 2022-03-02
+
+### Education
+
+* Would you like to be a teacher?
+* Talking tasks - length
+* Verbally comparing images
+	* Two sides - advantages x disadvantages, differences...
+
+## 5. Hodina 2022-03-23

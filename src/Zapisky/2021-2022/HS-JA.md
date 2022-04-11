@@ -650,3 +650,97 @@ R1(config-std-nacl)# permit host 192.168.10.10
 * Best-Effort (BE) - výchozí pro všechny IP pakety. Výchozí hodnota je 0
 * Expedited Forwarding (EF) - doporučeno pouze pro nejdůležitější provoz, zejména hlasový
 * Assured Forwarding (AF)
+
+## 21. Hodina 2022-02-18
+
+### CDP
+
+## 22. Hodina 2022-02-25
+
+### Správa souborů na systémech Cisco IOS
+
+#### CDP, SNMP, NTP, SYSLOG
+
+##### SYSLOG
+
+* NTP Server / Klient
+  * Zadání IP adresy NTP serveru
+  * Stratum - úroveň kvality času naproti časovému standardu
+    * Autoritativní zdroj času - Stratum 0 (nejvyšší priorita)
+    * Zdroj času z auarotitativním, připojený síťově: Stratum 1
+    * Stratum 2, 3, 4...
+* SNMP
+  * Simple Network Management Protocol
+  * Application Layer
+  * GET - získání stavu o zařízení
+    * TRAP - zpráva o chybě na síťovém prvku, chybová hláška
+  * SET - nastavení konfigurace
+* SYSLOG
+  * Služba, protkol
+  * Záznam událostí v síti
+  * UDP port 514
+  * Centrální logování z více síťových prvků na jeden server
+  * Různé implementace pro různé platformy
+  * Čtení logů ze všech zařízení na jednom syslog server - ssh, telnet, konzole...
+  * Syslog úrovně
+
+##### SYSLOG Úrovně
+
+|Název|Úroveň|Vysvětlení|
+|---|---|---|
+|Emergency|0|Nepoužitelný systém|
+|Alert|1|Nutnost okamžité akce|
+|Critical|2|Kritický stav|
+|Error|3|Stav chyby|
+|Warning|4|Stav varování|
+|Notification|5|Důležité události (normální)|
+|Informational|6|Informační zprávy|
+|Debugging|7|Debugovací zprávy|
+
+##### SYSLOG "Facilities"
+
+* Identifikace zpráv
+* Výchozí formát: `%facility-severity-MNEMONIC: popis`
+  * Např.: `%LINK-3-UPDOWN: Interface Port-channel1, changed state to up`
+
+#### Správa souborů na Cisco IOS
+
+* Filesystemy routerů
+  * Working directory: `pwd`
+  * Vypsání adresáře: `dir`
+  * Flash paměť
+  * Typy filesystémů např. tftp
+  * Reset routeru = smazání NVRAM + vlan.dat
+* Filesystemy switchů
+  * Mírné odlišnosti
+
+#### Použití TFTP pro zálohu souborů
+
+* Např. `copy running-config tftp`
+
+#### Použití USB
+
+* `dir usbflash0:`
+
+#### Smazání hesla
+
+1. ROMMON mode
+2. Změnit konfigurační register
+3. Zkopírovat startup-config > running-config
+4. Změnit heslo
+5. Uložit running-config jako nový startup-config
+6. Restart zařízení
+
+## 23. Hodina 2022-03-01
+
+### Opakování - Syslog
+
+### Správa obrazů operačního systému Cisco IOS
+
+* Kopírování BIN souborů přes tftp
+* `copy tftp: flash:`
+* Záloha: `copy flash: tftp:`
+
+## 24. Hodina 2022-03-04
+
+### Návrh sítě - hierarchie v sítích

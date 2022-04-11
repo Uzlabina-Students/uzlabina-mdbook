@@ -57,3 +57,58 @@
 #### NetInstall
 * Přeinstalace RouterOS v případě problémů s přístupem do rozhraní zařízení RouterBoard
 * [Stažení na stránkách MikroTik](https://mikrotik.com/download)
+
+## 22. Hodina 2022-02-25
+
+### Protokoly CDP, LLDP, NTP (Cisco IOS)
+
+## 23. Hodina 2022-03-31
+
+### RouterOS QoS
+
+#### [Queues](https://wiki.mikrotik.com/wiki/Manual:Queue)
+
+Queue (fronty) - kolekce data paketů, které čekají na přenesení po síti. Fungují podobně jako např. fronty v supermarketech nebo bankách, kde je zákazník (paket) obsloužen v momentě, kdy přijde na řadu.
+
+##### Využití
+
+* Omezení rychlosti pro konkrétní IP adresy, subnety, protokoly, porty...
+* Omezení P2P provozu
+* Priorita paketů
+* Nastavení výkyvů provozu pro zrychlení sítě
+* Nastavení časovaných limitů
+* Sdílení dostupné šířky sítě rovnoměrně mezi uživateli, nebo na základě zatížení kanálu
+
+#### Rate Limiting
+
+**Dva způsoby**:  
+1. **Zahození** paketů které přesahují limit
+2. **Zpoždění** paketů které přesahují limit
+
+![Principles of rate limiting and equalizing](https://help.mikrotik.com/docs/download/attachments/328088/Image8001.png)
+
+##### Druhy
+
+* Simple Queue
+	* `/queue simple`
+	* Jednoduchý způsob omezení provozu
+	* Možnost použití simple queues pro vytvoření pokročilých QoS
+	* Užitečné built-in funkce
+		* Omezení P2P provozu
+		* Nastavení pravidel podle času
+		* Prioritizace
+		* "Tvarovaní" provozu nebo bidirekcionální omezení
+* Queue Tree
+* Queue Typy
+	* FIFO
+		* First In, First Out
+	* RED
+		* Random Early Drop
+	* SFQ
+		* Stochastic Fairness Queuing (hasing, round-robin)
+	* PCQ
+		* Využívání jednolivých FIFO po zvolení označení
+	* CoDel
+	* FQ-Codel
+	* CAKE
+* Interface Queue

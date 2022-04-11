@@ -161,3 +161,27 @@ http://www.i4.cz/play/maminka/Maminka-Basnicky.pdf
 	* Pád komunistického režimu 1989
 * Dvě části - série odborných referátů, život a díla Cimrmana
 	* Činohra, vyšetřování ztráty třídní knihy
+
+## 17. Hodina 2022-03-22
+
+### Neumělecký test
+
+* C - Část 1. Obecná část, úryvek zákonu
+	* Odborný výklad
+
+## 18. Hodina 2022-03-25
+
+### Maturitní příprava
+
+1. Která věta je jednočlenná?
+	1. Končíme!
+	2. Konečně přijeli.
+	3. Pomalu se šeřilo. <<
+	4. Zákaz telefonování!
+2. Který větný celek je souvětí?
+	1. Všechno bylo tak, jak si přála. <<
+	2. Vyřešíme si to až doma, a ne tady mezi lidmi.
+	3. Postavili si sice poměrně malý, ale pro ně dostačující domek.
+	4. Naše dcera, stejně jako naše vnučka, bude maturocat už tento rok.
+3. Ve které větě plní infinitiv funkci podmětu?
+	1. 
