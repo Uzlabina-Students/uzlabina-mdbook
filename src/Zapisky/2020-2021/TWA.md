@@ -143,3 +143,33 @@ for (var i = 1; i < 100; i++) {
 	document.write(i+", ");
 } // Bude přičítat do 100
 ```
+
+## 2. Hodina 2020-09-xx
+
+### Regex v JS a HTML5, validace vstupu formulářů
+
+## 3. Hodina 2020-10-01
+
+### DOM struktura, funkce, časování, hledání tagů
+
+- Hledání ID
+```js
+document.getElementById('id sem');
+```
+
+- Intervaly
+```js
+window.setInterval(funkce, milisekundy);
+```
+	- Uložení intervalu do proměnné
+```js
+promenna = window.setInterval(xx, yy);
+```
+	- Zastavení intervalu po kliknutí na ID
+```js
+document.getElementById("id sem").onclick = function() { window.clearInterval(casovac); }
+```
+	- Zastavení intervalu po změně obsahu stránky
+```js
+
+```

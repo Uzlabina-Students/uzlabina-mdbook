@@ -102,3 +102,12 @@ Biologové popisují geny jako posloupnosti složené ze 4 písmen
 	| A | C | G | T | A A A C A G T A A C| AAACAGTAAC|
 	|---|---|---|---|--------------------|-----------|
 	|0  |10 |110|111|0 0 0 10 0 110 111 0 0 10|0001001101110010|
+
+## 5. Hodina 2020-12-14
+
+### Opakování k maturitě
+
+- 3 Zásady OOP:
+	- Dědičnost
+	- Polymorfismus
+	- Zapouzdření

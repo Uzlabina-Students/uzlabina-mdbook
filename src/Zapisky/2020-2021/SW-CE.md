@@ -130,3 +130,34 @@
 	- Plánování a připojení ke schůzce z více platforem
 	- Jedné schůzky se může účastnit více týmů
 	- Nahrávání a publikování schůzek pomocí Microsoft Stream
+
+## 4. Hodina 2020-12-08
+
+### Možnosti analýzy a vytváření přehledů Office 365
+
+#### Workplace Analytics
+
+- Nástroj pro shromažďování dat o práci uživatelů za cílem zvýšení produktivity
+- Různé metriky
+	- Week in the life (každodenní práce)
+	- Meeting overview
+	- Management and coaching
+	- Internal networks
+	- External collaboration
+	- Teams collaboration
+- Vyhledává vzroce spolupráce
+- Shromažďování dat ze vzorů práce, nijak nepřerušuje práci
+- Neshromažďuje osobní data
+
+## 5. Hodina 2020-12-15
+
+### MyAnalytics
+
+- Poskytuje pohled do produktivity, trávení času
+- Pravidelné reporty mailem (týdenní) - dashboard dostupný na [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)
+- Metriky
+	- Focus, wellbeing
+	- Netowork and collaboration
+	- Productivity insights
+
+### Nástroj pro správu Microsoft 365 (Microsoft 365 Admin Center)

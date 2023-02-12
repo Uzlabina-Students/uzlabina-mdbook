@@ -14,7 +14,7 @@ Seznam četby je také dostupný [jako PDF zde](https://www.uzlabina.cz/uploads/
 	- Z kategorie "Světová literatura 20. století" **4 knihy**
 	- Z kategorie "Česká literatura 20. století" **5 knih**
 	- Dalších 6 libovolně ze seznamu
-- Dohromady 20 knih
+- Dohromady 20 knihy
 
 ## 2. Hodina 2020-09-07
 
@@ -77,3 +77,35 @@ ___
 ### Interview s Bohem
 
 - Vytvořit desatero, co bychom chtěli naučit své děti
+
+## 6. Hodina 2020-12-14
+
+### Str 49-52 / 21-23
+
+#### 21
+
+1) c
+2) Do plněných tortill se výborně hodí spousta zeleniny, dětem je lze bez obav naservírovat, pokud se vyhneme pálivým druhům koření, jako je chilli.
+3) nové koření
+4) zelenina
+5) c
+6) a
+7) c
+8) c
+
+#### 22
+
+1) d
+2) c
+3) 
+4) a
+5) a
+6) d
+7) g
+
+#### 23
+
+1) a
+2) c
+3) b
+4) a

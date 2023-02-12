@@ -26,3 +26,7 @@ Správně je "Šťastný nový rok", ne "Šťastný Nový rok" (Nový rok je pou
 
 `Na náměstí Míru stojí chrám sv. Ludmily`  
 Výjimka: stanice metra `Náměstí Míru`
+
+## 3. Hodina 2020-12-17
+
+## 
